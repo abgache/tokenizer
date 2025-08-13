@@ -8,7 +8,7 @@ import tiktoken
 
 # Variables
 TXT_DATASET_PATH=""
-NEW_JSON_TOKENIZER_PATH=""
+NEW_JSON_TOKENIZER_PATH="tokenizer.json"
 
 def load_dataset():
     print(f"{tlm()} Loading Dataset...")
@@ -77,4 +77,5 @@ def create_tokenizer(text_limit: int=1000000):
 
 if __name__ == "__main__":
     tokenizer = create_tokenizer()
+
 
