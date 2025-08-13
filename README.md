@@ -12,7 +12,7 @@ token_list = tokenizer.get_token_list()```
 **Encode a token (give a token in input and it send it's token ID):**```python
 token = "on"
 encoded_token = tokenizer.encode_token(token)```  
-**Decode a token (token ID to token):```python
+**Decode a token (token ID to token):**```python
 token_id = 1
 token = tokenizer.decode_token(token_id)```  
 **Tokenize a string (text to token_id list):**```python
@@ -21,6 +21,7 @@ token_list = tokenizer.tokenize_string(text)```
 **Save the tokenizer:**```python
 path = "tokenizer.json"
 tokenizer.save(path)```  
-**Load the tokenizer:**```python
+**Load the tokenizer:**
+```python
 path = "tokenizer.json"
 tokenizer.load(path)```  
