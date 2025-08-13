@@ -6,21 +6,21 @@ add ``import tokenizer as tkn`` in the begining of all the scripts where you'll 
 tokenizer = tkn.create_tokenizer(text_limit=1000000```
 ### functions :
 **Print the model information:**```python
-tokenizer.summary()```
+tokenizer.summary()```  
 **Get all the tokens (in the tokenizer):**```python
-token_list = tokenizer.get_token_list()```
+token_list = tokenizer.get_token_list()```  
 **Encode a token (give a token in input and it send it's token ID):**```python
 token = "on"
-encoded_token = tokenizer.encode_token(token)```
+encoded_token = tokenizer.encode_token(token)```  
 **Decode a token (token ID to token):```python
 token_id = 1
-token = tokenizer.decode_token(token_id)```
+token = tokenizer.decode_token(token_id)```  
 **Tokenize a string (text to token_id list):**```python
-text = "This a small text."
-token_list = tokenizer.tokenize_string(text)```
+text = "This a small text."  
+token_list = tokenizer.tokenize_string(text)```  
 **Save the tokenizer:**```python
 path = "tokenizer.json"
-tokenizer.save(path)```
+tokenizer.save(path)```  
 **Load the tokenizer:**```python
 path = "tokenizer.json"
-tokenizer.load(path)```
+tokenizer.load(path)```  
