@@ -1,10 +1,14 @@
+# V1.0 
+# Made by abgache - https://abgache.pro/
+# For any commercial usage, do not remove theses comments.
 import os
 import json
 from time_log import time_log_module as tlm
 import tiktoken
 
 # Variables
-from import_env import *
+TXT_DATASET_PATH=""
+NEW_JSON_TOKENIZER_PATH=""
 
 def load_dataset():
     print(f"{tlm()} Loading Dataset...")
