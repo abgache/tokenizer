@@ -1,12 +1,12 @@
 # GPT-3 Tokenizer
 Just a simple python class to make it easier to use tiktoken (gpt-3 tokenizer - cl100k_base)
 ## Usage :
-run ``git clone https://github.com/abgache/tokenizer.git`` in your project file and change the TXT_DATASET_PATH variable by the path of your dataset (TXT). 
+Run ``git clone https://github.com/abgache/tokenizer.git`` in your project file and change the TXT_DATASET_PATH variable by the path of your dataset (TXT). 
 add ``import tokenizer as tkn`` in the begining of all the scripts where you'll need the tokenizer and create the tokenizer using 
 ```python
 tokenizer = tkn.create_tokenizer(text_limit=1000000)
 ```
-### functions :
+### Functions :
 **Print the model information:**
 ```python
 tokenizer.summary()
