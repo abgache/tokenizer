@@ -24,4 +24,4 @@ tokenizer.save(path)```
 **Load the tokenizer:**
 ```python
 path = "tokenizer.json"
-tokenizer.load(path)```  
+tokenizer.load(path)
