@@ -1,4 +1,4 @@
-# V1.0 
+# V2.0 
 # Made by abgache - https://abgache.pro/
 # For any commercial usage, do not remove theses comments.
 import os
@@ -77,3 +77,4 @@ def create_tokenizer(text_limit: int=1000000):
 
 if __name__ == "__main__":
     tokenizer = create_tokenizer()
+
